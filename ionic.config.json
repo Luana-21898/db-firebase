@@ -1,0 +1,7 @@
+{
+  "name": "MusicConcert",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

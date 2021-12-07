@@ -1,0 +1,39 @@
+ion-content {
+    --background:url(/assets/images/BG.png) 0 0/100% 100% no-repeat;
+}
+
+.container {
+	margin-left: 2pc;
+}
+
+.seats {
+	margin-top: 20%;
+	display: flex;
+	flex-wrap: wrap;
+	.seat {
+		justify-content: center;
+		margin: 10px 3px;
+		padding: 0px;
+		text-align: center;
+		display: flex;
+		background: #c4c4c4;
+		width: 8%;
+		min-height: 26px;
+		border-radius: 3px;
+		color: black;
+		font-size: 14px;
+		font-weight: 800;
+		align-items: center;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+
+	.seat.occupied {
+		background-color: #6feaf6;
+	}
+
+	.seat:not(.occupied):hover {
+		cursor: pointer;
+		transform: scale(1.2);
+	}
+}

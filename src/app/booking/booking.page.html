@@ -1,0 +1,52 @@
+<ion-content>
+
+  <ion-card class="card">
+    <div class="card-header">
+      Book Your Concert
+    </div>
+  </ion-card>
+
+  <ion-card class="card">
+
+    <div class="card">
+
+      <table class="table">
+        <tr>
+          <td>Adult Tickets</td>
+          <td>{{adultTicket}}</td>
+          <td><button class="book" (click)="addTicket('adult')">+</button></td>
+          <td><button class="book" (click)="removeTicket('adult')">-</button></td>
+        </tr>
+
+        <br>
+
+        <tr>
+          <td>Child Tickets</td>
+          <td>{{childTicket}}</td>
+          <td><button class="book" (click)="addTicket('child')">+</button></td>
+          <td><button class="book" (click)="removeTicket('child')">-</button></td>
+        </tr>
+
+        <br>
+
+        <tr>
+          <td colspan="3">Total Ticket Price: </td>
+          <td style='text-align: left'>{{totalTicketPrice}}</td>
+        </tr>
+      </table>
+
+    </div>
+
+  </ion-card>
+
+  <ion-card class="card">
+    <div id="button">
+      <tr>
+        <td>
+          <button class="book" routerLink="/seating">Choose Seats</button>
+        </td>
+      </tr>
+    </div>
+  </ion-card>
+
+</ion-content>

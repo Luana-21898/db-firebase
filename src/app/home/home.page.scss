@@ -1,0 +1,18 @@
+ion-content {
+  --background:url(/assets/images/home.png) 0 0/100% 100% no-repeat;
+ }
+
+
+#button {
+  position: absolute;
+  top:45%;
+  left:20%;
+  color: #d7d7d7;
+  --ion-color-secondary: #50006a;
+  --ion-color-secondary-contrast: #d7d7d7;
+  --ion-color-secondary-shade: #50006a;
+  --ion-color-secondary-tint: #50006a;
+    
+}
+
+
